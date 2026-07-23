@@ -1,0 +1,32 @@
+path: in1 to ff1
+arrival time:
+0.5+2=2.5 ns
+required time: 
+4-0.5=3.5 ns
+slack:
+3.5-2.5=1 ns
+
+path: ff1 to ff2
+arrival time: 
+0.5+2=2.5 ns
+required time: 
+4-0.5=3.5 ns
+slack:
+3.5-2.5=1 ns
+
+path: ff2 to out1
+arrival time: 
+0.5+2.4=2.9 ns
+required time:
+4-0.5=3.5 ns
+slack:
+3.5-2.9=0.6 ns
+
+
+path: in2 to out2
+arrival time:
+0.5+1=1.5 ns
+required time:
+4-0.5=3.5 ns
+slack:
+3.5-1.5=2 ns
