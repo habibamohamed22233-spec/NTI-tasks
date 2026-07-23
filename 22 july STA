@@ -1,0 +1,16 @@
+setup check
+11+(2+9+2)=24 ns
+10+15-4=21 ns
+
+slack:
+21-24=-3 ns
+
+
+hold check
+9+(1+6+1)=17 ns
+9+2=11 ns
+
+slack:
+17-11=6 ns
+
+no hold violation
